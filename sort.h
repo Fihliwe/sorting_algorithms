@@ -49,6 +49,6 @@ void merge_bitonic(int arr[], int low, int nelemnt, int order);
 void bitonicsort(int arr[], int low, int nelemnt, int order, int size);
 void swap_hoare(int *array, ssize_t item1, ssize_t item2);
 int hoare_partition(int *array, int first, int last, int size);
-void quick_sort_hoare(int *array, ssize_t first, ssize_t last, int size);
+void qs(int *array, ssize_t first, ssize_t last, int size);
 
 #endif /* SORT_H */

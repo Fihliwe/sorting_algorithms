@@ -48,15 +48,15 @@ int hoare_partition(int *array, int first, int last, int size)
  *@last: last array element
  *@size: array size
  */
-void quick_sort_hoare(int *array, ssize_t first, ssize_t last, int size)
+void qs(int *array, ssize_t first, ssize_t last, int size)
 {
 	ssize_t position = 0;
 
 	if (first < last)
 	{
 		position = hoare_partition(array, first, last, size);
-		quick_sort(array, first, position - 1, size);
-		quick_sort(array, position, last, size);
+		qs(array, first, position - 1, size);
+		qs(array, position, last, size);
 	}
 }
 /**
