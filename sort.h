@@ -35,5 +35,5 @@ void swap(int *array, ssize_t item1, ssize_t item2);
 int lomuto_partition(int *array, ssize_t first, ssize_t last, size_t size);
 void quick_sort_implementation(int *array, ssize_t first, ssize_t last, int size);
 void swap_shell(int *array, int item1, int item2);
-
+listint_t *node_swap(listint_t *node, listint_t **list);
 #endif /* SORT_H */
