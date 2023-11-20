@@ -39,5 +39,8 @@ listint_t *node_swap(listint_t *node, listint_t **list);
 void *_calloc(unsigned int nmemb, unsigned int size);
 void merge(int *arr, int *tmp, int start, int mid, int end);
 void mergesort(int *array, int *tmp, int start, int end);
+void swap_heap(int *a, int *b);
+void maxHeapify(int *array, size_t size, int idx, size_t n);
+void heap_sort(int *array, size_t size);
 
 #endif /* SORT_H */
