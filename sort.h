@@ -37,4 +37,7 @@ void quick_sort_implementation(int *array, ssize_t first, ssize_t last, int size
 void swap_shell(int *array, int item1, int item2);
 listint_t *node_swap(listint_t *node, listint_t **list);
 void *_calloc(unsigned int nmemb, unsigned int size);
+void merge(int *arr, int *tmp, int start, int mid, int end);
+void mergesort(int *array, int *tmp, int start, int end);
+
 #endif /* SORT_H */
